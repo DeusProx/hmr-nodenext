@@ -4,9 +4,9 @@
 > This was reported in [angular issue #60795](https://github.com/angular/angular/issues/60795).
 > The fix was released in angular version 19.2.6.
 
-> [!WARNING]
-> This branch still uses 19.2.5 and shows the bug.
-> Switch to the "fixed" branch to test the fix.
+> [!NOTE]
+> This branch uses 19.2.6 which fixes the bug
+> Switch to the "main" branch to check out the bug.
 > Do not forge to run `npm install`.
 
 > [!CAUTION]
