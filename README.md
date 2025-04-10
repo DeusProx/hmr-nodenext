@@ -1,5 +1,18 @@
 # Hot Module Replacement (HMR) Problems with Module "NodeNext"
 
+> [!IMPORTANT]
+> This was reported in [angular issue #60795](https://github.com/angular/angular/issues/60795).
+> The fix was released in angular version 19.2.6.
+
+> [!WARNING]
+> This branch still uses 19.2.5 and shows the bug.
+> Switch to the "fixed" branch to test the fix.
+> Do not forge to run `npm install`.
+
+> [!CAUTION]
+> The issue with the LSP was not fixed within this issue.
+> So leave your `tsconfig.json` with ESNext and extend it in another file to use with angular with `NodeNext`.
+
 Setting `"module"` to `"NodeNext"` in `tsconfig.json` leads to errors during HMR, when changing the template or styles of a component.
 This repository is showcasing this behaviour by providing two npm scripts `esnext` and `nodenext`.
 
